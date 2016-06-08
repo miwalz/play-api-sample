@@ -1,0 +1,10 @@
+datatype String
+
+morphiamodel Test {
+	name: String
+	many posts: Post
+}
+
+morphiamodel Post {
+	text: String
+}
